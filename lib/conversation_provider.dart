@@ -5,7 +5,7 @@ import 'models.dart';
 class ConversationProvider extends ChangeNotifier {
   List<Conversation> _conversations = [];
   int _currentConversationIndex = 0;
-  String apikey = "YOUR_API_KEY";
+  String apikey = "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";
   String proxy = "";
   List<Conversation> get conversations => _conversations;
   int get currentConversationIndex => _currentConversationIndex;
