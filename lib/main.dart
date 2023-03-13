@@ -31,7 +31,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Godseye',
       theme: theme,
+      debugShowCheckedModeBanner: false,
+
       home: Scaffold(
+
+
         appBar: AppBar(
           title: Text(
             Provider.of<ConversationProvider>(context, listen: true).currentConversationTitle,
@@ -51,6 +55,9 @@ class MyApp extends StatelessWidget {
               );
             },
           ),
+
+
+
           backgroundColor: Colors.grey[100],
           elevation: 0, // remove box shadow
           toolbarHeight: 50,
