@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:godseyeev1/popmenu.dart';
+// import 'package:godseyeev1/popmenu.dart';
 import 'package:provider/provider.dart';
 
-import 'chatpage.dart';
 import 'conversation_provider.dart';
-import 'drawer.dart';
+
 
 
 
@@ -62,12 +61,12 @@ class MyApp extends StatelessWidget {
           elevation: 0, // remove box shadow
           toolbarHeight: 50,
           actions: [
-            CustomPopupMenu(),
+            // CustomPopupMenu(),
           ],
         ),
-        drawer: MyDrawer(),
-        body: const Center(
-          child: ChatPage(),
+        // drawer: MyDrawer(),
+        body:  Center(
+          // child: ChatPage(),
         ),
       ),
     );
