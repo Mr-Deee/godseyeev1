@@ -6,7 +6,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 import 'package:godseyeev1/app/app.dart';
 import 'package:godseyeev1/bootstrap.dart';
-import 'package:godseyeev1/firebase_options_dev.dart';
+// import 'package:godseyeev1/firebase_options_dev.dart';
 import 'package:godseyeev1/services/app_info_service.dart';
 import 'package:godseyeev1/services/app_usage_service.dart';
 import 'package:godseyeev1/services/auth.dart';
@@ -14,6 +14,8 @@ import 'package:godseyeev1/services/geo_locator_service.dart';
 import 'package:godseyeev1/services/internet_connectivity_service.dart';
 import 'package:godseyeev1/services/notification_service.dart';
 import 'package:godseyeev1/theme/theme_notifier.dart';
+
+import 'firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
